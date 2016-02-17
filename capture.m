@@ -30,7 +30,7 @@
 
 - (void)setupCaptureSession:(BOOL)isfront{
     self.session = [[AVCaptureSession alloc] init];
-    self.session.sessionPreset = AVCaptureSessionPresetMedium;
+    self.session.sessionPreset = AVCaptureSessionPresetHigh;
     
     AVCaptureDevice *device = nil;
     NSError *error = nil;
